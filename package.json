@@ -1,0 +1,23 @@
+{
+  "name": "electronjs-start",
+  "version": "1.0.0",
+  "description": "electronjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --watch main.js --exec 'electron .'",
+    "dev": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethan-Ceng/electronjs-start.git"
+  },
+  "keywords": [
+    "electronjs"
+  ],
+  "author": "Ethan Ceng",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.4",
+    "nodemon": "^2.0.21"
+  }
+}
